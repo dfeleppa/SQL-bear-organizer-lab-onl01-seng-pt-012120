@@ -1,6 +1,7 @@
 def selects_all_female_bears_return_name_and_age
   "SELECT *"
 end
+SELECT [names of columns we are going to select] FROM [table we are selecting from];
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
   "Write your SQL query here"
