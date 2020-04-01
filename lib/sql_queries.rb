@@ -1,5 +1,5 @@
 def selects_all_female_bears_return_name_and_age
-  "SELECT *"
+  "SELECT name, age FROM bears WHERE gender"
 end
 SELECT [names of columns we are going to select] FROM [table we are selecting from];
 
