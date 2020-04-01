@@ -12,7 +12,7 @@ end
 
 def selects_oldest_bear_and_returns_name_and_age
   # "SELECT name, age FROM bears ORDER by age DESC LIMIT 1"
-  "SELECT name MAX(age) from bears"
+  "SELECT name, MAX(age) from bears"
 end
 
 def select_youngest_bear_and_returns_name_and_age
